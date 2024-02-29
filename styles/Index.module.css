@@ -1,0 +1,25 @@
+.rounded {
+  border-radius: 16px;
+}
+
+.summand {
+  background: -webkit-linear-gradient(
+    49deg,
+    #ffffff 21.51%,
+    rgba(255, 255, 255, 0.54) 65.26%,
+    #ffffff 85.88%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.summandLight {
+  background: -webkit-linear-gradient(
+    49deg,
+    #587dff 21.51%,
+    rgba(88, 125, 255, 0.54) 65.26%,
+    #587dff 85.88%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
