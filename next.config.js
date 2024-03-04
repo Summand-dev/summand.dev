@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export",
   reactStrictMode: true,
   swcMinify: true,
   eslint: {
@@ -9,11 +9,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  i18n: {
-    locales: ["en", "fa"],
-    defaultLocale: "en",
-    localeDetection: false,
-  },
+  // i18n: {
+  //   locales: ["en", "fa"],
+  //   defaultLocale: "en",
+  //   localeDetection: false,
+  // },
   async rewrites() {
     return [
       {

@@ -1,5 +1,4 @@
-import { getTime, formatDistanceToNow } from "date-fns";
-import { format, getDate } from "date-fns-jalali";
+import { getTime, formatDistanceToNow, format } from "date-fns";
 import { faIR } from "date-fns/locale";
 
 // ----------------------------------------------------------------------
