@@ -7,6 +7,7 @@ body {
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
+  overflow-x: hidden;
 }
 
 a {

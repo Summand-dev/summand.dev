@@ -14,6 +14,7 @@ const nextConfig = {
   //   defaultLocale: "en",
   //   localeDetection: false,
   // },
+  images: { unoptimized: true },
   async rewrites() {
     return [
       {
