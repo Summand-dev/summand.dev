@@ -97,6 +97,7 @@ export default function Header({ onOpenNav }) {
       position="sticky"
       color="transparent"
       sx={{
+        margin: "auto",
         marginTop: HEADER.H_DESKTOP_OFFSET - 2,
         paddingTop: 2,
         boxShadow: "none",

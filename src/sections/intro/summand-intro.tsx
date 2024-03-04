@@ -18,10 +18,12 @@ export default function SummandIntro() {
 
   useEffect(() => {
     getRepo("Summand-dev/Summand").then((repo) => {
-      setStargazers(repo.stargazers_count);
+      if (repo) {
+        setStargazers(repo.stargazers_count);
+      }
     });
     getRelease("Summand-dev/Summand").then((releases) => {
-      if (releases.length > 0) {
+      if (releases && releases.length > 0) {
         setRelease(releases[0]);
       }
     });
@@ -57,7 +59,7 @@ export default function SummandIntro() {
         >
           Next generation command-line automation.
         </Typography>
-        <Stack direction="row" spacing={4} marginTop={8}>
+        <Stack direction="row" spacing={{xs: 2, md: 4}} marginTop={8} marginX={{ xs: 1, md: 0}}>
           <Button
             size="large"
             variant="outlined"

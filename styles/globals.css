@@ -7,7 +7,6 @@ body {
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
-  overflow-x: hidden;
 }
 
 a {
@@ -35,6 +34,16 @@ a {
 .archiveImage:hover {
   cursor: pointer;
   padding: 0px;
+}
+
+.background-shapes {
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200vh;
+  pointer-events: none;
 }
 
 @media (prefers-color-scheme: dark) {

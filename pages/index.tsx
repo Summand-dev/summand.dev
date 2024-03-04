@@ -12,6 +12,11 @@ import WhatPeopleSay from "@/src/sections/intro/what-people-say";
 
 const IndexLayout = dynamic(() => import("../src/layouts/index"));
 
+export const metadata = {
+  title: 'Summand',
+  description: 'Next generation command line automation tool, Summand for developers.',
+}
+
 export default function AppView() {
   const pathname = usePathname()?.replace("/", "");
 

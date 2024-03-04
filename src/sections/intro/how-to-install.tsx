@@ -49,7 +49,7 @@ export default function HowToInstall() {
         <Typography variant="h4" color="text.primary" textAlign="center">
           How to install
         </Typography>
-        <Stack>
+        <Stack justifyContent="center">
           <Tabs
             value={value}
             onChange={handleChange}

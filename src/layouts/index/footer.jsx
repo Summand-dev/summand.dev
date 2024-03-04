@@ -71,7 +71,7 @@ export default function Footer() {
           <Stack>
             <Grid container spacing={1} direction="row">
               {links.map((link, index) => (
-                <Grid item xs={4} key={index}>
+                <Grid item xs={6} sm={4} key={index}>
                   <Typography variant="caption" color="text.primary">
                     {link.name}
                   </Typography>
