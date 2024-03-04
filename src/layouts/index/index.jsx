@@ -4,10 +4,14 @@ import Box from "@mui/material/Box";
 import Main from "./main";
 import Header from "./header";
 import Footer from "./footer";
-import { useAuthStore } from "../../hooks/use-auth";
 import { useRouter } from "next/router";
 
-// ----------------------------------------------------------------------
+export const viewport = {
+  themeColor: 'black',
+  initialScale: 1,
+  width: "device-width",
+  maximumScale: 1,
+}
 
 export default function IndexLayout({ children }) {
   const [openNav, setOpenNav] = useState(false);
